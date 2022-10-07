@@ -1,0 +1,42 @@
+header {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #1E59F5;
+  border-radius: 10px;
+}
+
+body{
+background-image: url(fond.jpg) ;
+background-repeat: no-repeat ;
+background-size: cover;
+}
+
+table{
+  position: fixed;
+}
